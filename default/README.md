@@ -1,5 +1,18 @@
 # 默认配置
 
+开始一个项目，新建一个项目文件夹
+
+```bash
+# 新建一个 default 文件夹
+mkdir default
+
+# 进入 default 文件夹
+cd default
+
+# 初始化一个 package.json 文件
+yarn init -y
+```
+
 ```js
 new WebpackOptionsDefaulter().process(options)
 ```
