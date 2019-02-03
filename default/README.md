@@ -11,6 +11,12 @@ cd default
 
 # 初始化一个 package.json 文件
 yarn init -y
+
+# 安装 webpack
+yarn add webpack webpack-cli -D
+
+# 执行 webpack
+npx webpack
 ```
 
 ```js
